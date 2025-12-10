@@ -1,3 +1,5 @@
+# Count Special Triplets
+
 class Solution:
     def specialTriplets(self, nums: List[int]) -> int:
         value_indexes = self.buildValueIndexDict(nums)
